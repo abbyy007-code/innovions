@@ -274,7 +274,7 @@ body {
     color: var(--text-light);
     max-width: 759px;
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
 }
 
 /* About Section */
@@ -339,7 +339,7 @@ body {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     align-items: stretch;
 }
@@ -389,6 +389,7 @@ body {
     margin-bottom: 1rem;
     line-height: 1.5;
     font-size: 0.9rem;
+    text-align: justify;
 }
 
 .service-card ul {
@@ -491,7 +492,7 @@ body {
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     align-items: stretch;
 }
@@ -542,6 +543,7 @@ body {
     margin-bottom: 1rem;
     line-height: 1.5;
     font-size: 0.9rem;
+    text-align: justify;
 }
 
 .product-features {
